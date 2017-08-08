@@ -14,7 +14,8 @@
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "helmet": "^3.8.1"
   },
   "devDependencies": {
     "jest": "^20.0.4",
