@@ -14,11 +14,11 @@
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.3",
-    "helmet": "^3.8.1"
+    "express": "^4.16.2",
+    "helmet": "^3.10.0"
   },
   "devDependencies": {
-    "jest": "^21.0.0",
+    "jest": "^22.2.1",
     "supertest": "^3.0.0"
   }
 }
