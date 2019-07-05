@@ -9,8 +9,7 @@
     "npm": "^5.3.0"
   },
   "scripts": {
-    "dev": "netlify dev",
-    "test": "jest"
+    "dev": "netlify dev"
   },
   "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)",
   "license": "ISC",
