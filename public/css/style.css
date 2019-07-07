@@ -1,16 +1,18 @@
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('../fonts/open-sans-v16-latin-300.woff2') format('woff2'),
-       url('../fonts/open-sans-v16-latin-300.woff') format('woff');
+	font-display: optional;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'),
+			 url('../fonts/open-sans-v16-latin-300.woff2') format('woff2'),
+			 url('../fonts/open-sans-v16-latin-300.woff') format('woff');
 }
 
 body {
 	background: url(../images/background.png) repeat-y #000;
 	color: #FEFEFE;
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	margin-left: 100px;
 	margin-top: 160px;
 }
@@ -20,14 +22,17 @@ h1 {
 	-webkit-animation: honeycomb 12s infinite;
 	animation: honeycomb 12s infinite;
 	color: #4F7E46;
+	font-weight: 300;
 	letter-spacing: -0.08em;
+	line-height: 1.35em;
 	margin-bottom: 0;
 	text-transform: uppercase;
 }
 
 h2 {
 	font-size: 1.2em;
-	font-weight: normal;
+	font-weight: 300;
+	line-height: 1.45em;
 	margin-bottom: 2em;
 	margin-top: 0;
 }
@@ -39,6 +44,7 @@ a {
 
 ul {
 	font-size: 0.9em;
+	line-height: 1.4em;
 	list-style: none;
 	padding: 0;
 }
