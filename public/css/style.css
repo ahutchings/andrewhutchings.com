@@ -8,6 +8,15 @@
 			 url('../fonts/open-sans-v16-latin-300.woff') format('woff');
 }
 
+@keyframes honeycomb {
+	0% {color: #451D14}
+	20% {color: #753021}
+	40% {color: #AE673D}
+	60% {color: #DCBD6F}
+	80% {color: #4F7E46}
+	100% {color: #451D14}
+}
+
 body {
 	background: url(../images/background.png) repeat-y #000;
 	color: #FEFEFE;
@@ -18,8 +27,6 @@ body {
 }
 
 h1 {
-	-moz-animation: honeycomb 12s infinite;
-	-webkit-animation: honeycomb 12s infinite;
 	animation: honeycomb 12s infinite;
 	color: #4F7E46;
 	font-weight: 300;
@@ -51,31 +58,4 @@ ul {
 
 h2, ul {
 	text-shadow: 0 0 1px #FEFEFE;
-}
-
-@-moz-keyframes honeycomb {
-	0% {color: #451D14}
-	20% {color: #753021}
-	40% {color: #AE673D}
-	60% {color: #DCBD6F}
-	80% {color: #4F7E46}
-	100% {color: #451D14}
-}
-
-@-webkit-keyframes honeycomb {
-	0% {color: #451D14}
-	20% {color: #753021}
-	40% {color: #AE673D}
-	60% {color: #DCBD6F}
-	80% {color: #4F7E46}
-	100% {color: #451D14}
-}
-
-@keyframes honeycomb {
-	0% {color: #451D14}
-	20% {color: #753021}
-	40% {color: #AE673D}
-	60% {color: #DCBD6F}
-	80% {color: #4F7E46}
-	100% {color: #451D14}
 }
