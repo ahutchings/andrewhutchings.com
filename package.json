@@ -2,18 +2,22 @@
   "name": "andrewhutchings.com",
   "version": "1.0.0",
   "description": "",
-  "private": true,
-  "engines": {
-    "node": "^10.16.0",
-    "npm": "^6.10.0"
+  "homepage": "https://andrewhutchings.com",
+  "license": "ISC",
+  "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahutchings/andrewhutchings.com.git"
   },
   "scripts": {
     "dev": "netlify dev"
   },
-  "author": "Andrew Hutchings <andrew.hutchings@gmail.com> (https://andrewhutchings.com)",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "netlify-cli": "^2.11.23"
-  }
+  },
+  "engines": {
+    "node": "^10.16.0",
+    "npm": "^6.10.0"
+  },
+  "private": true
 }
