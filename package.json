@@ -10,10 +10,12 @@
     "url": "https://github.com/ahutchings/andrewhutchings.com.git"
   },
   "scripts": {
-    "dev": "netlify dev"
+    "dev": "serve public",
+    "now": "now dev"
   },
   "devDependencies": {
-    "netlify-cli": "^2.11.23"
+    "now": "^18.0.0",
+    "serve": "^11.3.0"
   },
   "engines": {
     "node": "^10.16.0",
