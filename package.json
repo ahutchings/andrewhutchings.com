@@ -14,7 +14,7 @@
     "now": "now dev"
   },
   "devDependencies": {
-    "now": "^18.0.0",
+    "now": "^19.0.0",
     "serve": "^11.3.0"
   },
   "engines": {
