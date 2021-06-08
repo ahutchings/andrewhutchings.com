@@ -11,11 +11,11 @@
   },
   "scripts": {
     "dev": "serve public",
-    "now": "now dev"
+    "vercel": "vercel dev"
   },
   "devDependencies": {
-    "now": "^18.0.0",
-    "serve": "^11.3.0"
+    "serve": "^11.3.0",
+    "vercel": "^23.0.0"
   },
   "engines": {
     "node": "^10.16.0",
