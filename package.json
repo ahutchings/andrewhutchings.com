@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "serve": "^11.3.0",
-    "vercel": "^23.0.0"
+    "vercel": "^28.18.5"
   },
   "engines": {
     "node": "^10.16.0",
