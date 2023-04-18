@@ -14,7 +14,7 @@
     "vercel": "vercel dev"
   },
   "devDependencies": {
-    "serve": "^11.3.0",
+    "serve": "^14.2.0",
     "vercel": "^23.0.0"
   },
   "engines": {
