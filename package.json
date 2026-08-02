@@ -14,12 +14,12 @@
     "vercel": "vercel dev"
   },
   "devDependencies": {
-    "serve": "^11.3.0",
-    "vercel": "^23.0.0"
+    "serve": "^14",
+    "vercel": "^58"
   },
   "engines": {
-    "node": "^10.16.0",
-    "npm": "^6.10.0"
+    "node": "^24",
+    "npm": "^11"
   },
   "private": true
 }
